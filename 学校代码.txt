@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>研工模块</title>
+<link rel="shortcut icon" href="/resource/img/favicon.ico" type="image/x-icon"/>
+<link href="/resource/css/base.css" rel="stylesheet" type="text/css">
+<link href="/resource/css/common.css" rel="stylesheet" type="text/css">
+<link href="/resource/css/page.css" rel="stylesheet" type="text/css">
+<!-- <link href="/resource/css/activity.css" rel="stylesheet" type="text/css"> -->
+
+<script type="text/javascript" src="/yg/res/js/lib/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="/yg/res/js/lib/jquery.clazz.js"></script>
+<script type="text/javascript" src="/yg/res/js/lib/bootstrap.js"></script>
+<script type="text/javascript" src="/yg/res/js/layout.js"></script>
+<script type="text/javascript" src="/yg/res/js/page.js"></script>
+<script src="/resource/js/navdropbox.js" type="text/javascript"></script>
+<script type="text/javascript" src="/yg/res/js/common.js"></script>
+<!-- select box start -->
+<link href="/resource/js/lib/selectbox/chosen.css" rel="stylesheet" type="text/css"> 
+<script type="text/javascript" src="/resource/js/lib/selectbox/chosen.jquery.js"></script>
+
+<!-- 日期控件部分 start -->
+ <link href="/resource/js/lib/date/jquery.datepick.css" rel="stylesheet" type="text/css"> 
+<script type="text/javascript" src="/resource/js/lib/date/jquery.datepick.js"></script>
+<script type="text/javascript" src="/resource/js/lib/date/jquery.datepick-zh-CN.js"></script>
+
+<script type="text/javascript" src="/resource/js/lib/selectbox/chosen.jquery.js"></script>
+<!-- 日期控件部分  end -->
+<script type="text/javascript" src="/yg/res/js/lib/lhgdialog/lhgdialog.min.js"></script>
+<script src="/resource/js/ie.js" type="text/javascript"></script>
+<script type="text/javascript">
+     testIe("/resource");
+</script>
+</head>
+
+
+<style type="text/css">
+.body-content {border-radius: 4px;font-size:14px;}
+.content-wrap {padding: 30px;}
+.content-inner { border-radius: 16px;padding: 20px 40px;}
+.content-inner .box-title {margin: 20px 0 40px;}
+.content-inner .box-content {box-shadow: 1px 4px 10px 2px #dddddd;overflow: hidden;padding:20px 0 50px 0px;}
+.body-content .content-title {height:50px;font-size: 18px;line-height: 50px;text-align:center;font-weight: 700;margin-top:30px;}
+.body-content .content-title span {padding-left: 20px;display: inline-block;}
+.body-content .content-time {height:40px;font-size: 18px;line-height: 40px;text-align:center;font-weight: 700;}
+.body-content .content-time span {padding-left: 20px;display: inline-block;}
+.content-inner .content-img {text-align: center;line-height:40px;}
+.content-inner .info {text-align: center;line-height:20px;}
+.content-inner .info span{display:inline-block;line-height:20px;}
+.content-inner .info .lab{display:inline-block;width:100px;}
+.content-inner .info .info-content{display:inline-block;width:100px;}
+
+
+/* 适配小屏幕内容 */
+@media (max-width: 768px) {
+	*, lab, input, button, select, textarea{font-size: 14px;}
+	.content-wrap {padding: 0;}
+	.content-inner .box-content {box-shadow: none;padding:20px 0;}
+	.body-content .content-title {height: 40px; line-height: 40px;margin-top: 30px;}
+	.body-content .content-title span {padding-left: 15px;font-size: 18px;}
+	.content-inner {padding: 0;}
+	.content-inner .box-title {margin: 0;}
+	.content-inner .content-img {text-align: center;margin-top: 10px;}
+	.content-inner .info {text-align: center;line-height:20px;}
+	.content-inner .info span{display:inline-block;line-height: 35px;font-size: 16px;}
+	.content-inner .info  .lab{display:inline-block;width:100px;}
+	.content-inner .info  .info-content{display:inline-block;width:100px;}
+
+}
+</style>
+</head>
+<body style="background:#68b032">
+<div class="setup_main">
+<form class="form-horizontal mb0" id="" method="post">
+<div class="body-content" style="background:#68b032">
+	<div class="content-wrap pb20">
+		<div class="content-inner">
+			<div class="box-title">
+				<h2 class="cblue"></h2>
+			</div>
+			<div class="box-content">
+								<div class="content-title"><span>研究生校园通行证</span></div>
+				<div class="content-time"><span style="font-size: 20px;font-weight: bold;">2022-09-13 23:04:37</span></div>
+				<div class="content-img">
+					<img src="?pageAction=getPic" width="140px;"></img>
+				</div>
+				<div style="margin-top:20px;">
+					<div class="info">
+						<span class="lab">姓名</span>
+						<span class="info-content">张一博</span>
+					</div>
+					<div class="info">
+						<span class="lab">学号</span>
+						<span class="info-content">2020202062</span>
+					</div>
+					<div class="info">
+						<span class="lab">性别</span>
+						<span class="info-content">男</span>
+					</div>
+					<div class="info">
+						<span class="lab">院系名称</span>
+						<span class="info-content">动物科技学院</span>
+					</div>
+					<div class="info">
+						<span class="lab">专业</span>
+						<span class="info-content">水产</span>
+					</div>
+				</div>
+							</div>
+		</div>
+	</div>
+</div>
+</form>
+</div>
+</body>
+<script type="text/javascript">
+$(".chzn-select").chosen(); $(".chzn-select-deselect").chosen({allow_single_deselect:true}); 
+</script>
+</script>
